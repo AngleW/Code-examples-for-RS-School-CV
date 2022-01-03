@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блок</title>
+    <style>
+        body {
+            background: #f5f4f1;
+        }
+        section {
+            width: 300px;
+            font-family: Arial, Helvetica, sans-serif;
+            background: white;
+            box-shadow: 0 0 5px rgba(0,0,0,0.5);
+            padding: 0 0 5px 0;
+        }
+        img {
+            width: 100%;
+        }
+        .content {
+            text-align: center;
+            padding: 10px 20px 20px;
+        }
+        .content h2 {
+            font-variant: small-caps;
+            font-weight: normal;
+            margin-top: 0;
+        }
+        .content h2:after {
+            content: '';
+            display: block;
+            width: 25px;
+            margin: 10px auto;
+            border-bottom: 5px dotted coral;
+        }
+        .content p {
+            color: grey;
+            font-size: 0.8em;
+        }
+        .content button {
+            background-color: coral;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/african-sunset-byron-bailey.jpg" alt="sunset">
+        <div class="content">
+                <h2>Туристический цикл</h2>
+                <p class="text-box">Большая часть территории однородно вызывает закрытый аквапарк.</p>
+                <button>Подробнее</button>
+        </div>
+    </section>
+</body>
+</html>

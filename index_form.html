@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма для входа</title>
+    <style>
+        body {
+            background: #f5f4f1;
+        }
+        form {
+            background: white;
+            box-shadow: 0 0 5px rgba(0,0,0,0.5);
+            width: 300px;
+            margin: auto;
+            padding: 30px 50px;
+            
+        }
+        .box-1 {
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+            border: 1px solid #dddddd;
+        }
+        h2 {
+            text-align: center;
+            font-variant: small-caps;
+        }
+        .checkbox {
+            text-align: right;
+            font-style: italic;
+        }
+        button {
+            background: #bc8e5c;
+            width: 100%;
+            border: none;
+            color: #fff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="let me in">  
+        <h2>Добро пожаловать!</h2>
+        <p><input id="login" type="login" placeholder="Логин" class="box-1"></p>
+        <p><input id="password" type="password" placeholder="Пароль" class="box-1"></p>
+        <p class="checkbox"><input id="checkbox" checked type="checkbox" name="save_me">Запомнить меня</p>
+        <p><button>Войти</button></p>
+    </form>    
+</body>
+</html>
